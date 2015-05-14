@@ -176,7 +176,7 @@ public class CSVHandler {
 		checkNumber(csvFile, columnClasses);
 
 		// rest default to string
-
+		
 		return columnClasses;
 	}
 
