@@ -528,9 +528,9 @@ public class SQLHandler {
 		//Creates a String that can be sent to a file writer to be output as a SQL File
 		String SQLFileBuildString = "CREATE DATABASE "
 				+ databaseName
-				+ ";\n" + useDatabase + "\n"
-				+ createTable + ";\n"
-				+ insertString + ";";
+				+ ";\n" + useDatabase + ";\n"
+				+ createTable + "\n"
+				+ insertString;
 		return SQLFileBuildString;
 	}
 }
